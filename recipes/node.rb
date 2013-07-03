@@ -22,6 +22,10 @@ when "ubuntu"
 			action :install
 		end
 	end
+when "centos"
+	package "java" do
+		action :install
+	end
 end
 
 
